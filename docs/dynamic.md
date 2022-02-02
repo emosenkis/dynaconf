@@ -13,7 +13,7 @@ The call will be like:
 "<YOURVALUE>".format(env=os.environ, this=dynaconf.settings)
 ```
 
-So in your string you can refer to environment variables via `env` object, and also to variables defined int the settings object itself via `this` reference. It is lazily evaluated on access it will use the final value for a settings regardless the order of load.
+So in your string you can refer to environment variables via `env` object, and also to variables defined in the settings object itself via `this` reference. It is lazily evaluated on access it will use the final value for a settings regardless the order of load.
 
 Example:
 
